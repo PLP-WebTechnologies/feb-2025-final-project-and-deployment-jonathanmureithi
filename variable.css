@@ -1,0 +1,65 @@
+:root {
+  --rg-color-scheme: light;
+  --rg-color-background-page: #fff;
+  --rg-color-background-page-inverted: #0f141a;
+  --rg-color-background-object: #f3f3f7;
+  --rg-color-background-object-inverted: #232b37;
+  --rg-color-background-invertedlowcontrast: #656871;
+  --rg-color-background-glass: hsla(0, 0%, 100%, .75);
+  --rg-color-background-positive: #d9ffd6;
+  --rg-color-background-neutral: #d1f1ff;
+  --rg-color-background-notice: #ffe8bd;
+  --rg-color-background-negative: #ffe0e0;
+  --rg-color-border-lowcontrast: #ccccd1;
+  --rg-color-border-mediumcontrast: #72747e;
+  --rg-color-border-highcontrast: #161d26;
+  --rg-color-border-highcontrast-inverted: #fff;
+  --rg-color-status-success: #00802f;
+  --rg-color-status-warn: #d14600;
+  --rg-color-status-error: #db0000;
+  --rg-color-status-info: #006ce0;
+  --rg-color-text-primary: #161d26;
+  --rg-color-text-primary-inverted: #fff;
+  --rg-color-text-secondary: #232b37;
+  --rg-color-text-heading: #161d26;
+  --rg-color-text-title: #161d26;
+  --rg-color-text-title-inverted: #fff;
+  --rg-color-text-subheading: #232b37;
+  --rg-color-text-body: #232b37;
+  --rg-color-text-utility: #161d26;
+  --rg-color-text-utility-inverted: #fff;
+  --rg-color-text-eyebrow: #161d26;
+  --rg-color-text-faded: #72747e;
+  --rg-color-text-disabled: #b4b4bb;
+  --rg-color-link-default: #006ce0;
+  --rg-color-link-alternate: #161d26;
+  --rg-color-link-hover: #003b8f;
+  --rg-color-link-hover-inverted: #75cfff;
+  --rg-color-link-focus: #006ce0;
+  --rg-color-link-pressed: #006ce0;
+  --rg-color-link-selected: #006ce0;
+  --rg-color-link-visited: #6842ff;
+  --rg-color-link-inactive: #b4b4bb;
+  --rg-color-code-window: #f6f6f9;
+  --rg-shadow-gray-elevation-1: 1px 1px 20px rgba(0, 0, 0, .1);
+  --rg-shadow-gray-elevation-2: 1px 1px 24px rgba(0, 0, 0, .25);
+  --rg-shadow-gradient-fuchsia: linear-gradient(123deg, #d14600 0%, #c300e0 50%, #6842ff 100%);
+  --rg-shadow-gradient-indigo: linear-gradient(123deg, #006ce0 0%, #295eff 50%, #6842ff 100%);
+  --rg-shadow-gradient-orange: linear-gradient(123deg, #d600ba 0%, #eb003b 50%, #d14600 100%);
+  --rg-shadow-gradient-teal: linear-gradient(123deg, #008559 0%, #007e94 50%, #006ce0 100%);
+  --rg-shadow-gradient-blue: linear-gradient(123deg, #008559 0%, #006ce0 50%, #6842ff 100%);
+  --rg-shadow-gradient-violet: linear-gradient(123deg, #962eff 0%, #006ce0 50%, #007e94 100%);
+}
+.ambient-section {
+  background: var(--rg-shadow-gradient-violet);
+  color: var(--rg-color-text-primary-inverted);
+  padding: 4em 2em;
+  border-radius: 20px;
+  box-shadow: var(--rg-shadow-gray-elevation-2);
+  transition: background 0.5s ease-in-out;
+}
+.ambient-card:hover {
+  box-shadow: 0 0 20px var(--rg-color-link-hover-inverted);
+  background: var(--rg-shadow-gradient-teal);
+  transform: scale(1.03);
+}
